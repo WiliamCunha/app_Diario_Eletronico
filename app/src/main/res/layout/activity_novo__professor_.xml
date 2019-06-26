@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Novo_Professor_Activity"
+    android:orientation="vertical"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="8dp"
+    app:layout_goneMarginRight="8dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_professor_nome"
+        android:hint="Nome"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_professor_cpf"
+        android:hint="Cpf"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_professor_matricula"
+        android:hint="Matricula"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edt_professor_datanascimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="datanascimento"
+        android:inputType="datetime" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_professor_endereco"
+        android:hint="Endereco"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_professor_numero"
+        android:hint="Numero"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_professor_bairro"
+        android:hint="Bairro"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_professor_telefone"
+        android:hint="Telefone"
+        android:inputType="phone"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_professor_email"
+        android:hint="Email"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_professor_salario"
+        android:hint="Salario"
+        android:inputType="numberDecimal"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_professor_disciplina"
+        android:hint="Disciplina"
+        android:inputType="text"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_novoprofessor"
+        android:hint="Enviar"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="onclikNovoProfessor"/>
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Novo_Aluno_Activity"
+    android:orientation="vertical"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="8dp"
+    app:layout_goneMarginRight="8dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_aluno_nome"
+        android:hint="Nome"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_aluno_cpf"
+        android:hint="Cpf"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_aluno_rg"
+        android:hint="Rg"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_aluno_matricula"
+        android:hint="Matricula"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edt_aluno_datanascimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="datanascimento"
+        android:inputType="datetime" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_aluno_pai"
+        android:hint="Pai"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_aluno_mae"
+        android:hint="Mae"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_aluno_endereco"
+        android:hint="Endereco"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_aluno_numero"
+        android:hint="Numero"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_aluno_bairro"
+        android:hint="Bairro"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_aluno_telefone"
+        android:hint="Telefone"
+        android:inputType="phone"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_aluno_email"
+        android:hint="Email"
+        android:inputType="textEmailAddress"/>
+
+    <Button
+        android:id="@+id/btn_novoaluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Salvar"
+        android:onClick="addNovoAluno" />
+
+</LinearLayout>

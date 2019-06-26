@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">app_Diario_Eletronico</string>
+    <string-array name="opcoes_menu_array">
+        <item>Chamada</item>
+        <item>Cadastrar Aluno</item>
+        <item>Cadastrar Professor</item>
+        <item>Listar Aluno</item>
+        <item>Listar Professor</item>
+        <item>Editar Aluno</item>
+    </string-array>
+</resources>

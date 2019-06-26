@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChamadaActivity">
+
+
+
+
+    <CalendarView
+        android:id="@+id/calendarView7"
+        android:layout_width="205dp"
+        android:layout_height="317dp"
+        android:layout_row="0"
+        android:layout_column="0" />
+
+    <TextView
+        android:id="@+id/txv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:text="Nome Aluno" />
+
+    <TextView
+        android:id="@+id/txv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:text="Nome Aluno" />
+
+    <TextView
+        android:id="@+id/txv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:text="Nome Aluno" />
+
+    <TextView
+        android:id="@+id/txv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:text="Nome Aluno" />
+
+    <TextView
+        android:id="@+id/txv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:text="Nome Aluno" />
+
+    <TextView
+        android:id="@+id/txv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:text="Nome Aluno" />
+
+    <TextView
+        android:id="@+id/txv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="0"
+        android:text="Nome Aluno" />
+
+    <Button
+        android:id="@+id/btn_salvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="13"
+        android:layout_column="4"
+        android:onClick="onClick_salvar_chamada"
+        android:text="Salvar" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="4"
+        tools:src="@tools:sample/avatars[11]" />
+
+    <CheckBox
+        android:id="@+id/cbx1p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:text="P" />
+
+    <CheckBox
+        android:id="@+id/cbx1f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="3"
+        android:text="F" />
+
+    <CheckBox
+        android:id="@+id/cbx2p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:text="P" />
+
+    <CheckBox
+        android:id="@+id/cbx2f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="3"
+        android:text="F" />
+
+    <CheckBox
+        android:id="@+id/cbx3p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:text="P" />
+
+    <CheckBox
+        android:id="@+id/cbx3f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="3"
+        android:text="F" />
+
+    <CheckBox
+        android:id="@+id/cbx4p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="2"
+        android:text="P" />
+
+    <CheckBox
+        android:id="@+id/cbx5p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="2"
+        android:text="P" />
+
+    <CheckBox
+        android:id="@+id/cbx6p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="2"
+        android:text="P" />
+
+    <CheckBox
+        android:id="@+id/cbx7p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="2"
+        android:text="P" />
+
+    <CheckBox
+        android:id="@+id/cbx4f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="3"
+        android:text="F" />
+
+    <CheckBox
+        android:id="@+id/cbx5f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="3"
+        android:text="F" />
+
+    <CheckBox
+        android:id="@+id/cbx6f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="3"
+        android:text="F" />
+
+    <CheckBox
+        android:id="@+id/cbx7f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="3"
+        android:text="F" />
+
+</GridLayout>

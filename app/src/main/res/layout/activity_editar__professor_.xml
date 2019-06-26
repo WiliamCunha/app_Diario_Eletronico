@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="16dp"
+    android:orientation="vertical"
+
+    tools:context=".Editar_Professor_Activity">
+
+    <EditText
+        android:id="@+id/edprofessor_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome:"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/edprofessor_cpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cpf:"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edprofessor_matricula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Matricula:"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/edprofessor_datanascimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="datanascimento:"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edprofessor_endereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Endereco:"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/edprofessor_numero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero:"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/edprofessor_bairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bairro:"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/edprofessor_telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefone:"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/edprofessor_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email:"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/edprofessor_salario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="salario:"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/edprofessor_disciplina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dsciplina:"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btn_edprofessor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:gravity="center"
+        android:onClick="onclickEditarProfessor"
+        android:text="Alterar" />
+
+</LinearLayout>
